@@ -1,0 +1,13 @@
+prefix=C:/xampp/htdocs/shiab/youtube/venv/Library
+exec_prefix=C:/xampp/htdocs/shiab/youtube/venv/Library
+libdir=C:/xampp/htdocs/shiab/youtube/venv/Library/lib
+sharedlibdir=C:/xampp/htdocs/shiab/youtube/venv/Library/lib
+includedir=C:/xampp/htdocs/shiab/youtube/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
